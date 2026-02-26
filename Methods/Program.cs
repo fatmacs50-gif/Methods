@@ -34,7 +34,7 @@ namespace Methods
             var numstring = "123456s";
 
             int number;
-            +
+         
             if (!int.TryParse(numstring, out number))
             {
                 Console.WriteLine("invalid number ");
